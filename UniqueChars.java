@@ -16,7 +16,8 @@ public class UniqueChars {
 		boolean exist = false;
 		for(int i = 1; i < s.length(); i++){
 			if(s.charAt(i) == ' ') newStr = newStr + s.charAt(i);
-			else{
+			else{ 
+                // TODO: ident to the right!
 			for(int j = 0; j < newStr.length(); j++){
 				if(newStr.charAt(j) == s.charAt(i)) exist = true;
 			}
